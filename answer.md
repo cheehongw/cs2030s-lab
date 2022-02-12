@@ -14,7 +14,7 @@ class ExceptionDemo {
 }
 ```
 
-Look up [the `Scanner` API](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Scanner.html#%3Cinit%3E(java.io.File)) and show that a `FileNotFoundException` might be thrown.
+Look up [the `Scanner` API](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Scanner.html#%3Cinit%3E(java.io.File)) and see that a `FileNotFoundException` might be thrown.
 
 Fix the code so that it compiles.
 
