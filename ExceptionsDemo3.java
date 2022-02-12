@@ -4,6 +4,8 @@
  * Create a new checked exception `MyOwnException` and throw it
  * from `Exception::foo` and catch it in main
  */
+/*
+
 class ExceptionDemo {
     public static void foo() {
       // throw MyOwnException
@@ -15,3 +17,24 @@ class ExceptionDemo {
 
 //CREATE `MyOwnException` here
 class MyOwnException
+
+*/
+//-----------------------------------------------------------------
+
+//ANSWER
+class MyOwnException extends Exception {
+
+}
+
+class ExceptionDemo {
+  public static void foo() throws MyOwnException {
+    throw new MyOwnException();
+  }
+  public static void main(String[] args) {
+    try {
+      foo();
+    } catch (MyOwnException e) {
+      // do something
+    }
+  }
+}

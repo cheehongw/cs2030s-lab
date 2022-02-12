@@ -10,6 +10,15 @@ class G {
   }
 }
 
+/** ANSWER */
+class G { 
+  public static <T> void copy(T[] from, T[] to) {
+    for (int i = 0; i < from.length; i++) {
+      to[i] = from[i];
+    }
+  }
+ }
+
 /*
 Heres how it should work:
     String s[] = new String[2];
