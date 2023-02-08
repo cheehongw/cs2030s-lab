@@ -8,3 +8,12 @@
 
 //class C here:
 
+
+
+
+
+
+
+
+
+// Are the occurrences of T referring to the same T?

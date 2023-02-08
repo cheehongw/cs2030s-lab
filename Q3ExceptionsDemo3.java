@@ -14,4 +14,3 @@ class ExceptionDemo {
 }
 
 //CREATE `MyOwnException` here
-class MyOwnException
