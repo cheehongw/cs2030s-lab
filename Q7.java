@@ -4,7 +4,7 @@
  * 
  */
 class Q7 { 
-  public static ??? void copy(???  from, ??? to) {
+  public static <T> void copy(T[] from, T[] to) {
     for (int i = 0; i < from.length; i++) {
       to[i] = from[i];
     }
@@ -33,3 +33,7 @@ class Q7 {
     Q7.<String>copy(s, j); // error
   }
 }
+
+
+
+

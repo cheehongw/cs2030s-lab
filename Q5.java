@@ -5,10 +5,18 @@
 
 //class B<T> here:
 
+class B<T> extends A<T> {
+
+}
+
 
 //class C here:
 
+class C<T> {
+  
+  private A<T> x; 
 
+}
 
 
 

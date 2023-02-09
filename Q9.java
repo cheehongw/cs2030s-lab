@@ -5,3 +5,14 @@
  * Instantiate that array in the constructor. 
  */
 
+class E<T extends Comparable<T>> {
+  private T[] arr;
+
+  public E() { //constructor
+  
+    @SuppressWarnings({"unchecked", "rawtypes"})
+    T[] arr = (T[]) new Comparable[10];
+    this.arr = arr;
+  }
+}
+
